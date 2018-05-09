@@ -1,0 +1,17 @@
+Started by timer
+Building in workspace /var/jenkins_home/workspace/Python
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mateuo777/Python # timeout=10
+Fetching upstream changes from https://github.com/mateuo777/Python
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mateuo777/Python +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0b16a060f8da6cfc1a5073445d11127d1229d60d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0b16a060f8da6cfc1a5073445d11127d1229d60d
+Commit message: "first Python commit"
+ > git rev-list --no-walk 0b16a060f8da6cfc1a5073445d11127d1229d60d # timeout=10
+[Set GitHub commit status (universal)] PENDING on repos [] (sha:0b16a06) with context:Python
+Finished: SUCCESS

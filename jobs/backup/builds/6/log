@@ -1,0 +1,40 @@
+Started by user [8mha:////4L1GWdPymvtHXyObYXSDrqBAegAWS8dpUC9gzeJy568AAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MSS1NJ8AB5GgRTBAAAA[0mmateUo
+Building in workspace /var/jenkins_home/workspace/backup
+[backup] $ /bin/sh -xe /tmp/jenkins8753557541980571951.sh
++ cd /var/jenkins_home
++ git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc
++ [[ -d users ]]
+/tmp/jenkins8753557541980571951.sh: 6: /tmp/jenkins8753557541980571951.sh: [[: not found
++ git status
++ grep deleted
++ awk {print $2}
++ to_remove=
++ [[ -n ]]
+/tmp/jenkins8753557541980571951.sh: 16: /tmp/jenkins8753557541980571951.sh: [[: not found
++ git commit -m Automated Jenkins commit for JENKINS_HOME content
+[master 803eb4a] Automated Jenkins commit for JENKINS_HOME content
+ 37 files changed, 711 insertions(+), 15 deletions(-)
+ create mode 100644 jobs/Ansible/builds/2/build.xml
+ create mode 100644 jobs/Ansible/builds/2/changelog.xml
+ create mode 100644 jobs/Ansible/builds/2/log
+ create mode 100644 jobs/Python/builds/22/build.xml
+ create mode 100644 jobs/Python/builds/22/changelog.xml
+ create mode 100644 jobs/Python/builds/22/log
+ create mode 100644 jobs/ReadyNAS/builds/6/build.xml
+ create mode 100644 jobs/ReadyNAS/builds/6/changelog.xml
+ create mode 100644 jobs/ReadyNAS/builds/6/log
+ create mode 100644 jobs/ReadyNAS/builds/7/build.xml
+ create mode 100644 jobs/ReadyNAS/builds/7/changelog.xml
+ create mode 100644 jobs/ReadyNAS/builds/7/log
+ create mode 100644 jobs/backup/builds/5/build.xml
+ create mode 100644 jobs/backup/builds/6/changelog.xml
+ create mode 100644 jobs/backup/builds/6/log
+ create mode 100644 jobs/misc/builds/11/build.xml
+ create mode 100644 jobs/misc/builds/11/changelog.xml
+ create mode 100644 jobs/misc/builds/11/log
+ create mode 100644 jobs/misc/builds/12/build.xml
+ create mode 100644 jobs/misc/builds/12/changelog.xml
+ create mode 100644 jobs/misc/builds/12/log
++ git push -f -q -u origin master
+Branch master set up to track remote branch master from origin.
+Finished: SUCCESS

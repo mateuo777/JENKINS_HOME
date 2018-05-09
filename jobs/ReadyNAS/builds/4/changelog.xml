@@ -1,0 +1,11 @@
+commit 0a41317a5d5b219da91f2a3c40771602ca4cd3f5
+tree b8eb05a2c1bedb28cef185d6b299a8faebd50ef1
+parent 7590585e50cc0e7143322187f488176b9ced4d21
+author mateUo <janowicz.mateusz@gmail.com> 2018-04-16 10:00:09 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-04-16 10:00:09 +0200
+
+    changed smartctl.sh
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 961c34a2f5a21995a222de00f02dd1f18be6c34e A	"\\"

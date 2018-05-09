@@ -1,0 +1,21 @@
+Started by user [8mha:////4L1GWdPymvtHXyObYXSDrqBAegAWS8dpUC9gzeJy568AAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MSS1NJ8AB5GgRTBAAAA[0mmateUo
+Building in workspace /var/jenkins_home/workspace/ReadyNAS
+Cloning the remote Git repository
+Cloning repository https://github.com/mateuo777/ReadyNAS
+ > git init /var/jenkins_home/workspace/ReadyNAS # timeout=10
+Fetching upstream changes from https://github.com/mateuo777/ReadyNAS
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mateuo777/ReadyNAS +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/mateuo777/ReadyNAS # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/mateuo777/ReadyNAS # timeout=10
+Fetching upstream changes from https://github.com/mateuo777/ReadyNAS
+ > git fetch --tags --progress https://github.com/mateuo777/ReadyNAS +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 7590585e50cc0e7143322187f488176b9ced4d21 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7590585e50cc0e7143322187f488176b9ced4d21
+Commit message: "syntax error"
+First time build. Skipping changelog.
+Finished: SUCCESS

@@ -1,0 +1,16 @@
+Started by user [8mha:////4L1GWdPymvtHXyObYXSDrqBAegAWS8dpUC9gzeJy568AAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MSS1NJ8AB5GgRTBAAAA[0mmateUo
+Building in workspace /var/jenkins_home/workspace/ReadyNAS
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mateuo777/ReadyNAS # timeout=10
+Fetching upstream changes from https://github.com/mateuo777/ReadyNAS
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mateuo777/ReadyNAS +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 6b432238893b33bc8a3b743d502fdeea571df9fe (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6b432238893b33bc8a3b743d502fdeea571df9fe
+Commit message: "all files modified again"
+ > git rev-list --no-walk 0bf3be9c1287ec88372fc587abd4bfdeff8ff0dc # timeout=10
+Finished: SUCCESS

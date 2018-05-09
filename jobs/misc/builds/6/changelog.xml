@@ -1,0 +1,11 @@
+commit 47c8c82fd79177851cf6f0bd3e16d24eac9e1eec
+tree 4c04d7bf30d461ab527294e11a212f009dff8aac
+parent 2b497b061e33625dee91ffa087b15adc358672b4
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-02 15:18:19 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-02 15:18:19 +0200
+
+    vars modified
+
+
+
+:100755 100755 692c926a6e872a20fe629efc9fd2572ccbc8f86b 42a43e098fa2462950cd7c306030cbf67367dc5e M	vars.sh

@@ -1,0 +1,33 @@
+commit 7855faa04792461a58b5a5a5482fc47c35993862
+tree 069f4eece588f160917f02a92b889acd88623c21
+parent 62ef188845007396fe286d86aab0de25f239ddd4
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-08 11:56:07 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-08 11:56:07 +0200
+
+    some modifications
+
+
+
+:100755 100755 7778b5ce9b9729ac336618bbc73997f4cab40b60 0a59a464200faa0abac6ef22f69bf3812239a28d M	vars.sh
+commit 62ef188845007396fe286d86aab0de25f239ddd4
+tree 1aab2cc990c3337c65920da156e8035cafacac1a
+parent 7a9733bc54d8d48d618c9ee00914b5b424c54c91
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-08 11:32:49 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-08 11:32:49 +0200
+
+    some modifications
+
+
+
+:100755 100755 e895a08e802b73420cbbf58b7af3e92b74fbe1ed 7778b5ce9b9729ac336618bbc73997f4cab40b60 M	vars.sh
+commit 7a9733bc54d8d48d618c9ee00914b5b424c54c91
+tree fbd03b727da809a7765d1205d389d8a7c3aa3c36
+parent 47c8c82fd79177851cf6f0bd3e16d24eac9e1eec
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-08 11:29:46 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-08 11:29:46 +0200
+
+    some modifications
+
+
+
+:100755 100755 42a43e098fa2462950cd7c306030cbf67367dc5e e895a08e802b73420cbbf58b7af3e92b74fbe1ed M	vars.sh
