@@ -24,13 +24,7 @@
     <hudson.tasks.Shell>
       <command>cd $JENKINS_HOME
 
-if [[ -d jobs ]]; then 
-	job_folders=$(ls jobs)
-    if [[ -n $job_folders ]]; then
-    	git add $job_folders
-    fi
-fi
-        
+git add -- jobs/* 
 
 if [[ -d users ]]; then
     user_config_files=$(ls users/*/config.xml)
