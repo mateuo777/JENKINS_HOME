@@ -1,26 +1,42 @@
 Started by user [8mha:////4L1GWdPymvtHXyObYXSDrqBAegAWS8dpUC9gzeJy568AAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MSS1NJ8AB5GgRTBAAAA[0mmateUo
 Building in workspace /var/jenkins_home/workspace/backup
-[backup] $ /bin/sh -xe /tmp/jenkins996602519280762771.sh
+[backup] $ /bin/sh -xe /tmp/jenkins3690726319406317579.sh
 + cd /var/jenkins_home
-+ git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc
++ [[ -d jobs ]]
+/tmp/jenkins3690726319406317579.sh: 4: /tmp/jenkins3690726319406317579.sh: [[: not found
 + [[ -d users ]]
-/tmp/jenkins996602519280762771.sh: 6: /tmp/jenkins996602519280762771.sh: [[: not found
+/tmp/jenkins3690726319406317579.sh: 12: /tmp/jenkins3690726319406317579.sh: [[: not found
 + git status
 + grep deleted
 + awk {print $2}
 + to_remove=
 + [[ -n ]]
-/tmp/jenkins996602519280762771.sh: 16: /tmp/jenkins996602519280762771.sh: [[: not found
+/tmp/jenkins3690726319406317579.sh: 22: /tmp/jenkins3690726319406317579.sh: [[: not found
 + git commit -m Automated Jenkins commit for specified JENKINS_HOME content
-[master 00257c8] Automated Jenkins commit for specified JENKINS_HOME content
- 9 files changed, 102 insertions(+), 10 deletions(-)
- create mode 100644 jobs/backup/builds/10/changelog.xml
- create mode 100644 jobs/backup/builds/10/log
- create mode 100644 jobs/backup/builds/9/build.xml
- create mode 100644 jobs/backup/builds/9/changelog.xml
- create mode 100644 jobs/backup/builds/9/log
-+ git push -q -u origin master
-Branch master set up to track remote branch master from origin.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+	modified:   jobs/backup/builds/10/log
+	modified:   jobs/backup/builds/lastFailedBuild
+	modified:   jobs/backup/builds/lastStableBuild
+	modified:   jobs/backup/builds/lastSuccessfulBuild
+	modified:   jobs/backup/builds/lastUnsuccessfulBuild
+	modified:   jobs/backup/config.xml
+	modified:   jobs/backup/nextBuildNumber
+	modified:   queue.xml
+
+Untracked files:
+	.bash_logout
+	.bashrc
+	.owner
+	.profile
+	jobs/backup/builds/10/build.xml
+	jobs/backup/builds/11/
+	jobs/backup/builds/12/
+	jobs/backup/builds/13/
+
+no changes added to commit
+Build step 'Execute shell' marked build as failure
 Sending e-mails to: janowicz.mateusz@gmail.com
 ERROR: Could not connect to SMTP host: localhost, port: 25
 javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
@@ -56,4 +72,4 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231)
 	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
 	... 18 more
-Finished: SUCCESS
+Finished: FAILURE

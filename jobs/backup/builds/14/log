@@ -1,0 +1,5 @@
+Started by user [8mha:////4L1GWdPymvtHXyObYXSDrqBAegAWS8dpUC9gzeJy568AAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MSS1NJ8AB5GgRTBAAAA[0mmateUo
+Building in workspace /var/jenkins_home/workspace/backup
+[backup] $ /bin/sh -xe /tmp/jenkins434309827666226641.sh
++ cd /var/jenkins_home
++ git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc
