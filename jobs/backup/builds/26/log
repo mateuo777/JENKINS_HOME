@@ -3,3 +3,73 @@ Building on master in workspace /var/jenkins_home/workspace/backup
 [backup] $ /bin/sh -xe /tmp/jenkins7479416125314123771.sh
 + cd /var/jenkins_home
 + git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc
++ [[ -d users ]]
+/tmp/jenkins7479416125314123771.sh: 6: /tmp/jenkins7479416125314123771.sh: [[: not found
++ git status
++ grep deleted
++ awk {print $2}
++ to_remove=
++ [[ -n ]]
+/tmp/jenkins7479416125314123771.sh: 16: /tmp/jenkins7479416125314123771.sh: [[: not found
++ git commit -m Automated Jenkins commit for specified JENKINS_HOME content
+[master 0f7a139] Automated Jenkins commit for specified JENKINS_HOME content
+ 33 files changed, 577 insertions(+), 11 deletions(-)
+ create mode 100644 jobs/ReadyNAS/builds/9/build.xml
+ create mode 100644 jobs/ReadyNAS/builds/9/changelog.xml
+ create mode 100644 jobs/ReadyNAS/builds/9/log
+ create mode 100644 jobs/backup/builds/21/build.xml
+ create mode 100644 jobs/backup/builds/22/build.xml
+ create mode 100644 jobs/backup/builds/22/changelog.xml
+ create mode 100644 jobs/backup/builds/22/log
+ create mode 100644 jobs/backup/builds/23/build.xml
+ create mode 100644 jobs/backup/builds/23/changelog.xml
+ create mode 100644 jobs/backup/builds/23/log
+ create mode 100644 jobs/backup/builds/24/build.xml
+ create mode 100644 jobs/backup/builds/24/changelog.xml
+ create mode 100644 jobs/backup/builds/24/log
+ create mode 100644 jobs/backup/builds/25/build.xml
+ create mode 100644 jobs/backup/builds/25/changelog.xml
+ create mode 100644 jobs/backup/builds/25/log
+ create mode 100644 jobs/backup/builds/26/changelog.xml
+ create mode 100644 jobs/backup/builds/26/log
+ create mode 100644 jobs/misc/builds/19/build.xml
+ create mode 100644 jobs/misc/builds/19/changelog.xml
+ create mode 100644 jobs/misc/builds/19/log
++ git push -q -u origin master
+Branch master set up to track remote branch master from origin.
+Sending e-mails to: janowicz.mateusz@gmail.com
+ERROR: Could not connect to SMTP host: localhost, port: 25
+javax.mail.MessagingException: Could not connect to SMTP host: localhost, port: 25;
+  nested exception is:
+	java.net.ConnectException: Connection refused (Connection refused)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1934)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:638)
+	at javax.mail.Service.connect(Service.java:295)
+	at javax.mail.Service.connect(Service.java:176)
+	at javax.mail.Service.connect(Service.java:125)
+	at javax.mail.Transport.send0(Transport.java:194)
+	at javax.mail.Transport.send(Transport.java:124)
+	at hudson.tasks.MailSender.run(MailSender.java:131)
+	at hudson.tasks.Mailer.perform(Mailer.java:171)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:81)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:744)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:690)
+	at hudson.model.Build$BuildExecution.post2(Build.java:186)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:635)
+	at hudson.model.Run.execute(Run.java:1752)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:286)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:231)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:1900)
+	... 18 more
+Finished: SUCCESS

@@ -1,0 +1,66 @@
+commit 7f51b2d01a35584c3a537be3d05991811853c590
+tree 2bae7f21fccedc833e5f35409c8e25d8ec7c013f
+parent bce869f16e2d98ad2c5935ca65c0bbe1ed1d6342
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-16 17:00:18 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-16 17:00:18 +0200
+
+    Automated commit for Ansible powered by cron
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 8c1a63ca164b3574dde953530a6e1bc8d18651a5 A	readynas_reboot.retry
+commit bce869f16e2d98ad2c5935ca65c0bbe1ed1d6342
+tree eaea9108ebd754e37bc79b6ffbfe351154fe9fc0
+parent 49dadb74543981cd143c8fda035899000f3d381c
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 09:07:51 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 09:07:51 +0200
+
+    Automated commit for Ansible powered by cron
+
+
+
+:000000 100755 0000000000000000000000000000000000000000 b921b12e19fca77a40dc602d917b9f20e25bd108 A	backup_git_ansible.sh
+commit 49dadb74543981cd143c8fda035899000f3d381c
+tree 91863741f4fcde23068bdaef8cc3ea7ef7c5aba0
+parent d2e2f5c87a90a7aa8801c119bcbb2b86c34e7f50
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 08:40:42 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 08:40:42 +0200
+
+    Automated commit for Ansible powered by cron
+
+
+
+:100755 000000 cdbaae9e222a3551d6f3359bf9b284bce73eef75 0000000000000000000000000000000000000000 D	backup_git.sh
+commit d2e2f5c87a90a7aa8801c119bcbb2b86c34e7f50
+tree d97504858eac2ff884489685012013359860db29
+parent 4d2becde7d26d328b2cf3124e43cccb51885eeab
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 08:23:08 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 08:23:08 +0200
+
+    Automated commit for Ansible powered by cron
+
+
+
+:100755 100755 7aa9cda51ef39a1515a5f4f8662238bee35a9374 cdbaae9e222a3551d6f3359bf9b284bce73eef75 M	backup_git.sh
+commit 4d2becde7d26d328b2cf3124e43cccb51885eeab
+tree 36ec7eda4d5d0d9eeb3a35c473e618389c671ac3
+parent 17cd35a47871edd76728952b2336861d2eba5a76
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 08:17:06 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 08:17:06 +0200
+
+    Automated commit for Ansible powered by cron
+
+
+
+:100755 100755 7cd6dbb3c4dad981d6a9fb6b41e22698e1cd67a6 7aa9cda51ef39a1515a5f4f8662238bee35a9374 M	backup_git.sh
+commit 17cd35a47871edd76728952b2336861d2eba5a76
+tree 5d4781c6776491ab1b6bc0dc7a0818fa45b0ec07
+parent f295aefcbad3975ed4a8958c579e04db05649b56
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 08:12:20 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 08:12:20 +0200
+
+    Automated commit for Ansible powered by cron
+
+
+
+:000000 100755 0000000000000000000000000000000000000000 7cd6dbb3c4dad981d6a9fb6b41e22698e1cd67a6 A	backup_git.sh

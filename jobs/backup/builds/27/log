@@ -1,0 +1,5 @@
+Started by timer
+Building on master in workspace /var/jenkins_home/workspace/backup
+[backup] $ /bin/sh -xe /tmp/jenkins8932772505824430568.sh
++ cd /var/jenkins_home
++ git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc

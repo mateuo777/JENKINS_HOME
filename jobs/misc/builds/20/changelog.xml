@@ -1,0 +1,23 @@
+commit b6bc4a51f7e067cf922d692f637a80b94ce09de0
+tree 8c57ade3af7dedc6d1ab6fbc94b2bb38d341e6e7
+parent 3ad8c49d647520a5ac756f7e62bcc1b02fc3f3e4
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-17 12:31:49 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-17 12:31:49 +0200
+
+    Automated commit for misc powered by cron
+
+
+
+:000000 100755 0000000000000000000000000000000000000000 08f35f4bebe090c129df8942dc17a16eac61491c A	id_rsa.pub
+:000000 100644 0000000000000000000000000000000000000000 0f91d6f90d560f08acdb84f57dd9cc2868b67b51 A	id_rsa.pub.root
+commit 3ad8c49d647520a5ac756f7e62bcc1b02fc3f3e4
+tree 511ed0f115c1daab6de3e1a4254c921af5163e7f
+parent 5aa24e8f3e244d153b01ca682e7af1e8f21d0cd1
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-17 10:12:51 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-17 10:12:51 +0200
+
+    Automated commit for misc powered by cron
+
+
+
+:000000 100755 0000000000000000000000000000000000000000 6e7ff0935f5b1b43af0a33de929932c39ae5f011 A	.bashrc
