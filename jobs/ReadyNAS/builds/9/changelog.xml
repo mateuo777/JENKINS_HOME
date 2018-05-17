@@ -1,0 +1,59 @@
+commit a1bd70dc37963934b78b8e7c71fe6d2dd61315a6
+tree b95801a1916b4b4555ca06508672664de9c1be88
+parent b532886aa4f0b27c2b2ac660a7c2fff22be1534a
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-16 16:14:19 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-16 16:14:19 +0200
+
+    Automated commit for ReadyNAS powered by cron
+
+
+
+:100755 100755 f3ad6d55daae1631b644f301bf97313f42f66d33 22ad9b6ef1f1085e7f6b4aed900db6ca10e701f1 M	smartctl_NAS.sh
+commit b532886aa4f0b27c2b2ac660a7c2fff22be1534a
+tree 607ef7733e028d2fd8d1df879b04dd40543bbc3e
+parent 74b30b251eff00f47cc48175c71ce30208d5ad65
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 14:00:16 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 14:00:16 +0200
+
+    Automated commit for ReadyNAS powered by cron
+
+
+
+:100644 000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0000000000000000000000000000000000000000 D	testfile
+commit 74b30b251eff00f47cc48175c71ce30208d5ad65
+tree fc0bf31461ae690f68754024155860619049eeff
+parent 7b7a7a94e8031cb9a6b6f202d1b5feef4220a57c
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 13:05:02 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 13:05:02 +0200
+
+    added testfile
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 A	testfile
+commit 7b7a7a94e8031cb9a6b6f202d1b5feef4220a57c
+tree 607ef7733e028d2fd8d1df879b04dd40543bbc3e
+parent a8be782fdc8f8af34c0b81eb7b8b0671ff280d07
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 12:00:13 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 12:00:13 +0200
+
+    Automated commit for ReadyNAS powered by cron
+
+
+
+:100755 100755 e3844a23c55009b9badd8efc932771eeba015265 868cc0f249597d73683a094bb8c595da7579153f M	backup_git_readynas.sh
+:100644 000000 257cc5642cb1a054f08cc83f2d943e56fd3ebe99 0000000000000000000000000000000000000000 D	testfile
+commit a8be782fdc8f8af34c0b81eb7b8b0671ff280d07
+tree d95aea618b99139aad4aeb5f7a7fe7d8065ef86e
+parent 6b432238893b33bc8a3b743d502fdeea571df9fe
+author mateUo <janowicz.mateusz@gmail.com> 2018-05-15 11:00:11 +0200
+committer mateUo <janowicz.mateusz@gmail.com> 2018-05-15 11:00:11 +0200
+
+    Automated commit for Ansible powered by cron
+
+
+
+:000000 100755 0000000000000000000000000000000000000000 e3844a23c55009b9badd8efc932771eeba015265 A	backup_git_readynas.sh
+:100644 100644 852f170b2ee505c23778a2d08f8ee66833777267 2aeb3b6faa41bb40b1e009f589947d0d028de730 M	snapper_config_recreation.sh
+:100644 100644 b25e97bdaae3fe6b47b0f81332524b877eac79f4 ce0b230fde21b8eccddf811b7784fedd8f829875 M	snapshots_deletion_rnnml.sh
+:000000 100644 0000000000000000000000000000000000000000 257cc5642cb1a054f08cc83f2d943e56fd3ebe99 A	testfile
