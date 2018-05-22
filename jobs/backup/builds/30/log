@@ -3,3 +3,19 @@ Building on master in workspace /var/jenkins_home/workspace/backup
 [backup] $ /bin/sh -xe /tmp/jenkins1529481228210672689.sh
 + cd /var/jenkins_home
 + git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc
++ [[ -d users ]]
+/tmp/jenkins1529481228210672689.sh: 6: /tmp/jenkins1529481228210672689.sh: [[: not found
++ git status
++ grep deleted
++ awk {print $2}
++ to_remove=queue.xml
++ [[ -n queue.xml ]]
+/tmp/jenkins1529481228210672689.sh: 16: /tmp/jenkins1529481228210672689.sh: [[: not found
++ git commit -m Automated Jenkins commit for specified JENKINS_HOME content
+[master 4b808e8] Automated Jenkins commit for specified JENKINS_HOME content
+ 3 files changed, 7 insertions(+), 1 deletion(-)
+ create mode 100644 jobs/backup/builds/30/changelog.xml
+ create mode 100644 jobs/backup/builds/30/log
++ git push -q -u origin master
+Build step 'Execute shell' marked build as failure
+Sending e-mails to: janowicz.mateusz@gmail.com
