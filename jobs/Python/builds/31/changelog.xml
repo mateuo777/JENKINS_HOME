@@ -1,0 +1,22 @@
+commit 9b7d0aa6c20e35883d79676ded3d0d641f1deec7
+tree d4a89dae9b5c7dcab741eb1e845e2b0181c84278
+parent 688ea66ca9a1519f0bf7ca339bc2ec53f01e40ae
+author mateuo <janowicz.mateusz@gmail.com> 2018-05-23 10:40:16 +0200
+committer mateuo <janowicz.mateusz@gmail.com> 2018-05-23 10:40:16 +0200
+
+    input changed to raw_input
+
+
+
+:100755 100755 fcd24c68a04a452a8b8921c9ff702288f8eb1d23 0c3924b191b8c9a06ade2b866c448ac27ee5e0c6 M	python_script.py
+commit 688ea66ca9a1519f0bf7ca339bc2ec53f01e40ae
+tree 113945e71bcba672d7a504b1e85b1fd8cffbd4be
+parent 0b16a060f8da6cfc1a5073445d11127d1229d60d
+author mateuo <janowicz.mateusz@gmail.com> 2018-05-23 10:29:46 +0200
+committer mateuo <janowicz.mateusz@gmail.com> 2018-05-23 10:29:46 +0200
+
+    input changed to raw_input
+
+
+
+:100755 100755 0c3924b191b8c9a06ade2b866c448ac27ee5e0c6 fcd24c68a04a452a8b8921c9ff702288f8eb1d23 M	python_script.py

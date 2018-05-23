@@ -1,0 +1,34 @@
+Started by user [8mha:////4L1GWdPymvtHXyObYXSDrqBAegAWS8dpUC9gzeJy568AAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL93MSS1NJ8AB5GgRTBAAAA[0mmateUo
+Building remotely on [8mha:////4PsiJbq+SZpJZ49FD9EEwk3+QJVcFlho5YfxkJNEQ/DAAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/eT83ILSktQi/eKcxLJUheLijBQFoN6SxMy81CIAVV5j+9MAAAA=[0mslave sshd container in workspace /home/jenkins/workspace/misc
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mateuo777/misc # timeout=10
+Fetching upstream changes from https://github.com/mateuo777/misc
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mateuo777/misc +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision af013f231b7de9f8fc2b040ee463a85905f44b30 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f af013f231b7de9f8fc2b040ee463a85905f44b30
+ERROR: Unable to retrieve commit message
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at hudson.remoting.Request.call(Request.java:172)
+	at hudson.remoting.Channel.call(Channel.java:951)
+	at hudson.remoting.RemoteInvocationHandler.invoke(RemoteInvocationHandler.java:278)
+	at com.sun.proxy.$Proxy68.withRepository(Unknown Source)
+	at org.jenkinsci.plugins.gitclient.RemoteGitImpl.withRepository(RemoteGitImpl.java:235)
+	at hudson.plugins.git.GitSCM.printCommitMessageToLog(GitSCM.java:1245)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1218)
+	at hudson.scm.SCM.checkout(SCM.java:504)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1208)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:574)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:86)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:499)
+	at hudson.model.Run.execute(Run.java:1727)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:97)
+	at hudson.model.Executor.run(Executor.java:429)
+ > git rev-list --no-walk af013f231b7de9f8fc2b040ee463a85905f44b30 # timeout=10
+Finished: SUCCESS

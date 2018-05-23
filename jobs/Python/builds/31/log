@@ -1,0 +1,17 @@
+Started by timer
+Building remotely on [8mha:////4PsiJbq+SZpJZ49FD9EEwk3+QJVcFlho5YfxkJNEQ/DAAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/eT83ILSktQi/eKcxLJUheLijBQFoN6SxMy81CIAVV5j+9MAAAA=[0mslave sshd container in workspace /home/jenkins/workspace/Python
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/mateuo777/Python # timeout=10
+Fetching upstream changes from https://github.com/mateuo777/Python
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/mateuo777/Python +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 9b7d0aa6c20e35883d79676ded3d0d641f1deec7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9b7d0aa6c20e35883d79676ded3d0d641f1deec7
+Commit message: "input changed to raw_input"
+ > git rev-list --no-walk 0b16a060f8da6cfc1a5073445d11127d1229d60d # timeout=10
+[Set GitHub commit status (universal)] PENDING on repos [] (sha:9b7d0aa) with context:Python
+Finished: SUCCESS

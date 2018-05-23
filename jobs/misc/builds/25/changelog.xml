@@ -1,0 +1,11 @@
+commit bb8aad1c2a8f75838af669a5f23b8c4413fe062c
+tree cf6dd48196c98b7a63c8c844a101ed2c31bf1ed1
+parent af013f231b7de9f8fc2b040ee463a85905f44b30
+author mateuo <janowicz.mateusz@gmail.com> 2018-05-22 10:24:59 +0200
+committer mateuo <janowicz.mateusz@gmail.com> 2018-05-22 10:24:59 +0200
+
+    Automated commit for misc powered by cron
+
+
+
+:100755 100755 68648cf726f4f95376b65b5aac99dcf952a70df2 a18302d066bb89a435229b9f396681675c03e87b M	backup_jenkins_home.sh
