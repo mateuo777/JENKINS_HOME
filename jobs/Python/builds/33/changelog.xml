@@ -1,0 +1,24 @@
+commit 20e6f179ed5193147a85eacc428606a2bed3557e
+tree 2a048ee02f2a8b7d49d5407928ff25da0f5f64dc
+parent 9aa27c6476bdbbe40da0ccac20e85e028cd77eb0
+author mateuo <janowicz.mateusz@gmail.com> 2018-05-25 11:58:44 +0200
+committer mateuo <janowicz.mateusz@gmail.com> 2018-05-25 11:58:44 +0200
+
+    problem fixed
+
+
+
+:100644 100755 b930d424e8d6e69afa5d5a1ce985e974b988206e b930d424e8d6e69afa5d5a1ce985e974b988206e M	args
+:100644 100755 8de8badf7ac896e223410db3a021e95d0bcb5d4c 64744661d27d813f781350bf7e344274c2d19744 M	args2
+:000000 100755 0000000000000000000000000000000000000000 fd00baf3883d0047b9fe334a580376450cbed0fe A	args3
+commit 093c4635362bfdc8536bba54eab87b40ec2ac2ae
+tree 4ffdd733f5858c5eb8611176365ccaab94e0f389
+parent a075bdfc6d0461f2d3a7c93787959db4e27a05f5
+author mateuo <janowicz.mateusz@gmail.com> 2018-05-25 09:06:58 +0200
+committer mateuo <janowicz.mateusz@gmail.com> 2018-05-25 09:06:58 +0200
+
+    some changes
+
+
+
+:100755 100755 c7688665e75e07bdacb6316d417ba9dcd2d25c2e 304d94669e7ae46907a517e6cd95702d748bc9cf M	python_script.py

@@ -1,3 +1,30 @@
 Started by timer
 Building on master in workspace /var/jenkins_home/workspace/backup
 [backup] $ /bin/sh -xe /tmp/jenkins3287600448183909172.sh
++ cd /var/jenkins_home
++ git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc
++ [[ -d users ]]
+/tmp/jenkins3287600448183909172.sh: 6: /tmp/jenkins3287600448183909172.sh: [[: not found
++ [[ -d nodes ]]
+/tmp/jenkins3287600448183909172.sh: 14: /tmp/jenkins3287600448183909172.sh: [[: not found
++ git status
++ grep deleted
++ awk {print $2}
++ to_remove=
++ [[ -n ]]
+/tmp/jenkins3287600448183909172.sh: 24: /tmp/jenkins3287600448183909172.sh: [[: not found
++ git commit -m Automated Jenkins commit for specified JENKINS_HOME content
+[master c457db6] Automated Jenkins commit for specified JENKINS_HOME content
+ 19 files changed, 266 insertions(+), 9 deletions(-)
+ create mode 100644 jobs/Python/builds/32/build.xml
+ create mode 100644 jobs/Python/builds/32/changelog.xml
+ create mode 100644 jobs/Python/builds/32/log
+ create mode 100644 jobs/backup/builds/34/build.xml
+ create mode 100644 jobs/backup/builds/35/changelog.xml
+ create mode 100644 jobs/backup/builds/35/log
+ create mode 100644 jobs/misc/builds/27/build.xml
+ create mode 100644 jobs/misc/builds/27/changelog.xml
+ create mode 100644 jobs/misc/builds/27/log
++ git push -q -u origin master
+Branch master set up to track remote branch master from origin.
+Finished: SUCCESS
