@@ -3,3 +3,34 @@ Building on master in workspace /var/jenkins_home/workspace/backup
 [backup] $ /bin/sh -xe /tmp/jenkins5645790145321338664.sh
 + cd /var/jenkins_home
 + git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc
++ [[ -d users ]]
+/tmp/jenkins5645790145321338664.sh: 6: /tmp/jenkins5645790145321338664.sh: [[: not found
++ [[ -d nodes ]]
+/tmp/jenkins5645790145321338664.sh: 14: /tmp/jenkins5645790145321338664.sh: [[: not found
++ git status
++ grep deleted
++ awk {print $2}
++ to_remove=
++ [[ -n ]]
+/tmp/jenkins5645790145321338664.sh: 24: /tmp/jenkins5645790145321338664.sh: [[: not found
++ git commit -m Automated Jenkins commit for specified JENKINS_HOME content
+[master c5c8a4d] Automated Jenkins commit for specified JENKINS_HOME content
+ 25 files changed, 416 insertions(+), 9 deletions(-)
+ create mode 100644 jobs/Python/builds/33/build.xml
+ create mode 100644 jobs/Python/builds/33/changelog.xml
+ create mode 100644 jobs/Python/builds/33/log
+ create mode 100644 jobs/Python/builds/34/build.xml
+ create mode 100644 jobs/Python/builds/34/changelog.xml
+ create mode 100644 jobs/Python/builds/34/log
+ create mode 100644 jobs/backup/builds/35/build.xml
+ create mode 100644 jobs/backup/builds/36/changelog.xml
+ create mode 100644 jobs/backup/builds/36/log
+ create mode 100644 jobs/misc/builds/28/build.xml
+ create mode 100644 jobs/misc/builds/28/changelog.xml
+ create mode 100644 jobs/misc/builds/28/log
+ create mode 100644 jobs/misc/builds/29/build.xml
+ create mode 100644 jobs/misc/builds/29/changelog.xml
+ create mode 100644 jobs/misc/builds/29/log
++ git push -q -u origin master
+Branch master set up to track remote branch master from origin.
+Finished: SUCCESS
