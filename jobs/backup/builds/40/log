@@ -3,3 +3,22 @@ Building on master in workspace /var/jenkins_home/workspace/backup
 [backup] $ /bin/sh -xe /tmp/jenkins2564204912129776.sh
 + cd /var/jenkins_home
 + git add -- jobs/Ansible jobs/Python jobs/ReadyNAS jobs/backup jobs/misc
++ [[ -d users ]]
+/tmp/jenkins2564204912129776.sh: 6: /tmp/jenkins2564204912129776.sh: [[: not found
++ [[ -d nodes ]]
+/tmp/jenkins2564204912129776.sh: 14: /tmp/jenkins2564204912129776.sh: [[: not found
++ git status
++ grep deleted
++ awk {print $2}
++ to_remove=queue.xml
++ [[ -n queue.xml ]]
+/tmp/jenkins2564204912129776.sh: 24: /tmp/jenkins2564204912129776.sh: [[: not found
++ git commit -m Automated Jenkins commit for specified JENKINS_HOME content
+[master 9625cd8] Automated Jenkins commit for specified JENKINS_HOME content
+ 7 files changed, 59 insertions(+), 3 deletions(-)
+ create mode 100644 jobs/backup/builds/39/build.xml
+ create mode 100644 jobs/backup/builds/40/changelog.xml
+ create mode 100644 jobs/backup/builds/40/log
++ git push -q -u origin master
+Branch master set up to track remote branch master from origin.
+Finished: SUCCESS
